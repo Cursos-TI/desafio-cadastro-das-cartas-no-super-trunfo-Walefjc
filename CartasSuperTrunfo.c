@@ -36,7 +36,97 @@ int main(){
     printf("PIB: %.2F km²", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
 
+// Exibindo dados da carta 2
+    printf("Carta 1: \n");
+    printf("Estado: %c\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", nomeCidade2);
+    printf("População: %d\n", populacao2);
+    printf("Aréa: %.2f km²\n", area2);
+    printf("PIB: %.2f km²\n", area2);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
+  
+// Exibindo dados da carta 3
+    printf("Carta 3: \n");
+    printf("Estado: %c\n", estado3);
+    printf("Código: %s\n", codigo3);
+    printf("Nome da Cidade: %s\n", nomeCidade3);
+    printf("População: %d\n", populacao3);
+    printf("Aréa: %.2f km²\n", area3);
+    printf("PIB:%.2F km²\n", pib3);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos3);
 
+
+    printf("Digite os dados da carta 1:\n");
+
+    printf("Estado (A-H): ");
+    scanf("%c", &estado1);
+
+    printf("Código da carta A01");
+    scanf("%s", codigo1);
+
+    printf("Nome da Cidade: ");
+    scanf("%[^\n]", nomeCidade1);
+
+    printf("População: ");
+    scanf("%d", &populacao1);
+
+    printf("Aréa: (km²):");
+    scanf("%f", &area1);
+
+    printf("PIB: ");
+    scanf("%f", &pib1);
+
+    printf("Número de pontos Túristicos: ");
+    scanf("%d", &pontosTuristicos1);
+
+    
+    printf("Digite os dados da carta 2:\n");
+
+    printf("Estado (A-H): ");
+    scanf("%c", &estado2);
+
+    printf("Código da carta A02");
+    scanf("%s", codigo2);
+
+    printf("Nome da Cidade: ");
+    scanf("%[^\n]", nomeCidade2);
+
+    printf("População: ");
+    scanf("%d", &populacao2);
+
+    printf("Aréa: (km²):");
+    scanf("%f", &area2);
+
+    printf("PIB: ");
+    scanf("%f", &pib2);
+
+    printf("Número de pontos Túristicos: ");
+    scanf("%d", &pontosTuristicos2);
+
+    
+    printf("Digite os dados da carta 3:\n");
+
+    printf("Estado (A-H): ");
+    scanf("%c", &estado3);
+
+    printf("Código da carta A03");
+    scanf("%s", codigo3);
+
+    printf("Nome da Cidade: ");
+    scanf("%[^\n]", nomeCidade3);
+
+    printf("População: ");
+    scanf("%d", &populacao3);
+
+    printf("Aréa: (km²):");
+    scanf("%f", &area3);
+
+    printf("PIB: ");
+    scanf("%f", &pib3);
+
+    printf("Número de pontos Túristicos: ");
+    scanf("%d", &pontosTuristicos3);
 
 
 
